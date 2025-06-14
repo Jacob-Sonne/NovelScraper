@@ -5,11 +5,11 @@ Use the following command to run the script. The link has to have an associated 
 ```
 python3 main.py <LINK_TO_WEBSITE>
 ```
-## Example:
+### Example:
 ```
 python3 main.py https://novelbin.com/b/god-tier-farm/cchapter-1
 ```
-## Result:  
+### Result:  
 ![image](https://github.com/user-attachments/assets/c3c2aa03-a63f-46b2-8a51-3b7fb278fb95)
 
 
