@@ -1,5 +1,5 @@
 # NovelScraper
-A simple scraper for webnovels. It uses the strategy pattern for the scrapers becuase they all have the same purpose but depending on the website they have to scrape the data differently. It will automatically choose the correct scraper based on the link provided when you run the scrape because it uses the factory pattern to choose the scraper. Possible future improvement is to have the factory automatically look through the scrapers folder and add them to the factory instead of having to add them manually to the scraper_facotory.py file.
+A simple scraper for webnovels. It uses the strategy pattern for the scrapers becuase they all have the same purpose but depending on the website they have to scrape the data differently. It will automatically choose the correct scraper based on the link provided when you run the scrape because it uses the factory pattern to choose the scraper.
 # How to run
 Use the following command to run the script. The link has to have an associated scraper in the scraper factory and scraper folder.
 ```
@@ -54,3 +54,8 @@ SCRAPER_REGISTRY = {
     "Newscraperwebsite.com": NewScraper,    # <--------- Add this line with the correct base link and name scraper name.
 }
 ```
+
+# Future improvements
+1)  Have the factory automatically look through the scrapers folder and add them to the factory instead of having to add them manually to the scraper_facotory.py file.
+2)  Have the base url be a part of the scraper itself.
+3)  have a requirements.txt file that can be used to download all the dependencies.
