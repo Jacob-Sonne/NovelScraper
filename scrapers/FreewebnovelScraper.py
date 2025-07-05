@@ -1,12 +1,6 @@
 from scrapers.scraper_strategy_interface import ScraperStrategy
-from ConnectionHandler import ConnectionHandler
-from bs4 import BeautifulSoup
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 from ConnectionHandler import ConnectionHandler
-import time
 
 class FreewebnovelScraper(ScraperStrategy):
     def __init__(self):
